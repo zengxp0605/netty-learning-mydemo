@@ -10,10 +10,13 @@
     <version>1.0.0</version>
 
     <modules>
-<!--        最简单的http服务实现demo -->
+        <module>00_test-import-jar</module>
+
+        <!--        最简单的http服务实现demo -->
         <module>01_hello_netty</module>
+        <module>02-load-jar-demo</module>
     </modules>
-    
+
     <dependencies>
         <dependency>
             <groupId>io.netty</groupId>

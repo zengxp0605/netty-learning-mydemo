@@ -10,8 +10,8 @@ public class MyHttpServer {
 
     public static void main(String[] args) {
         int port = 2000;
-        new MyHttpServer().start(port);
         System.out.println("Starting: " + port);
+        new MyHttpServer().start(port);
     }
 
     public void start(int port){
