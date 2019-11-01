@@ -15,6 +15,7 @@
         <!--        最简单的http服务实现demo -->
         <module>01_hello_netty</module>
         <module>02-load-jar-demo</module>
+        <module>03-netty-rpc</module>
     </modules>
 
     <dependencies>
