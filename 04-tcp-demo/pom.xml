@@ -3,18 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>netty-learning-mydemo</artifactId>
+        <artifactId>hello-netty</artifactId>
         <groupId>com.stan</groupId>
         <version>1.0.0</version>
-        <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>hello-netty</artifactId>
-    <packaging>pom</packaging>
-    <modules>
-        <module>04-tcp-demo</module>
-    </modules>
+    <artifactId>04-tcp-demo</artifactId>
 
 
 </project>
