@@ -1,4 +1,4 @@
-package com.stan.echo.server;
+package stan.echo.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;

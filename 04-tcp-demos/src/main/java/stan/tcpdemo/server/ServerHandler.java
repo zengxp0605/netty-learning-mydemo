@@ -1,4 +1,4 @@
-package com.stan.tcpdemo.server;
+package stan.tcpdemo.server;
 
 import io.netty.channel.*;
 

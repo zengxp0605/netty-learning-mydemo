@@ -1,4 +1,4 @@
-package com.stan.tcpdemo.client;
+package stan.tcpdemo.client;
 
 import io.netty.channel.ChannelHandler;
 import io.netty.channel.ChannelHandlerContext;

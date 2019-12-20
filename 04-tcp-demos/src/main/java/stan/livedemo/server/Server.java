@@ -1,4 +1,4 @@
-package com.stan.tcpdemo.server;
+package stan.livedemo.server;
 
 import io.netty.bootstrap.ServerBootstrap;
 import io.netty.channel.ChannelFuture;
@@ -29,7 +29,7 @@ public class Server {
                     // 设置连入服务端的 Client 的 SocketChannel 的处理器
                     .childHandler(new ServerInitializer());
             // 绑定端口，并同步等待成功，即启动服务端
-            ChannelFuture f = b.bind(8888);
+            ChannelFuture f = b.bind(6666);
             // 监听服务端关闭，并阻塞等待
             f.channel().closeFuture().sync();
         } finally {
