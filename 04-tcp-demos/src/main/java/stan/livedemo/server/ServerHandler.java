@@ -64,7 +64,7 @@ public class ServerHandler extends SimpleChannelInboundHandler<String> {
             ch.writeAndFlush(response + " --->Your hashCode: " + ch.hashCode() + "\r\n");
 
             logger.debug("currentHashCode:" + currentHashCode);
-        });
+        });`12`
 
 //        if (close) {
 //            future.addListener(ChannelFutureListener.CLOSE);
