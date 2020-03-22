@@ -3,7 +3,6 @@ package com.stan.learn.mybatis.service.impl;
 import com.alibaba.fastjson.JSONObject;
 import com.stan.learn.mybatis.pojo.Book;
 import com.stan.learn.mybatis.pojo.User;
-import com.stan.learn.mybatis.repository.BookRepository;
 import com.stan.learn.mybatis.service.UserService;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
